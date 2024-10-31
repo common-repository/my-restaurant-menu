@@ -1,0 +1,6 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">mp62_mrm_menu_col1_values</custom-field>
+		<custom-field action="translate">mp62_mrm_menu_col2_values</custom-field>
+	</custom-fields>
+</wpml-config>

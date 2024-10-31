@@ -1,0 +1,127 @@
+#mp62_mrm_upload_button {
+	width: auto !important;
+}
+#mp62_mrm_delete_button {
+	width: auto !important;
+}
+#mp62_mrm_imageholder {
+	padding-right: 10px;
+}
+#mp62_mrm_menu_master {
+	/*border: 1px solid red;*/
+}
+.mp62_mrm_items_item {
+	border: 1px solid #aaaaaa;
+	border-radius: 4px;
+	background-color: #ccc;
+	margin: 3px;
+	padding: 2px;
+	cursor: move;
+}
+#mp62_mrm_menu_col1_inside, #mp62_mrm_menu_col2_inside {
+	margin: 0;
+	padding: 10px;
+	height: 300px;
+	overflow: auto;
+}
+#mp62_mrm_menu_master h4 {
+	background-color: #eee;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+#mp62_mrm_menu_master h3 {
+	padding: 7px 7px 7px 30px;
+}
+#mp62_mrm_menu_items {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 30%;
+	float: left;
+}
+#mp62_mrm_menu_items_inside {
+/*
+	margin: 0;
+	padding: 10px;
+	height: 300px;
+	overflow: auto;
+*/
+}
+#mp62_mrm_menu_main {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 64%;
+	float: right;
+}
+#mp62_mrm_menu_col1 {
+	width: 50%;
+	float: left;
+}
+#mp62_mrm_menu_col1_inside,
+#mp62_mrm_menu_col1 h4 {
+	border-right: 1px solid #ccc;
+}
+#mp62_mrm_menu_col2 {
+	width: 50%;
+	float: left;
+}
+.mp62_mrm_menu_icon_edit {
+	cursor: pointer;
+	float: right;
+}
+.mp62_mrm_menu_icon_remove {
+	cursor: pointer;
+	float: right;
+	color: red;
+}
+.mp62_mrm_menu_icon_remove::after {
+	clear: both;
+}
+.mp62_mrm_items_free {
+	font-weight: bold;
+	background-color: #FFA500;
+}
+.mp62_mrm_accordion {
+	cursor: pointer !important;
+}
+#mp62_mrm_css_customization {
+	display: table;
+	width: 100%;
+}
+.mp62_mrm_css_customization_row {
+	display: table-row;
+	width: 100%;
+	border-top: 1px solid #ccc;
+} 
+.mp62_mrm_css_customization_left {
+	display: table-cell;
+	width: 25%;
+}
+.mp62_mrm_css_customization_right {
+	display: table-cell;
+	width: 72%;
+}
+.mp62_mrm_css_customization_right_cell {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+.mp62_mrm_css_customization_right_cell p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.mp62_mrm_css_customization_right_cell input {
+	padding-top: 2px;
+}
+.mp62_mrm_fontcard {
+	border: 1px solid #bbb;
+	background: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+.mp62_mrm_settings_label {
+	width: 100px;
+	display: inline-block;
+}
